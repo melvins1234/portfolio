@@ -1,0 +1,68 @@
+.touch {
+  margin: 65px 0;
+  text-align: center;
+}
+.touch-wrapper {
+  padding: 25px;
+  background-color: #202a3c;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.touch img {
+  position: absolute;
+  width: 34px;
+  top: -24px;
+  left: -10px;
+  z-index: -1;
+}
+
+.contact-details {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-details p {
+  opacity: 1;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+}
+.contact-details .flex {
+  justify-content: center;
+  gap: 10px;
+  background: #262f38;
+  cursor: pointer;
+  font-size: 18pt;
+  height: 55px;
+  margin: 0 15px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+  width: 55px;
+}
+.contact-details button {
+  font-size: 14px;
+  font-weight: 300;
+}
+.contact-details a {
+  color: white;
+}
+.contact-details a:hover {
+  color: #fd0037;
+}
+.touch .message {
+  padding: 10px 0;
+  max-width: 500px;
+  margin: auto;
+}
+.message small {
+  font-style: italic;
+  font-size: 13px;
+}
+@media (max-width: 768px) {
+  .touch h1 {
+    font-size: 1.8rem;
+  }
+}
