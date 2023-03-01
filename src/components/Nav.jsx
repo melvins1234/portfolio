@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import Github from "./Atoms/Button/Github";
-import resume from "../docs/resume-09-08-2021.pdf";
+import resume from "../docs/resume-03-01-2023.pdf";
 import "./styles/Nav.css";
 
 const Nav = () => {
