@@ -1,7 +1,6 @@
 import "./styles/Offer.css";
 import responsive from "../images/responsive.svg";
-import design from "../images/design.svg";
-import team from "../images/team.svg";
+import { TeamSVG, DesignSVG, ResponsiveSVG } from "./Atoms/Svg";
 
 const Offer = () => {
   return (
@@ -15,7 +14,7 @@ const Offer = () => {
         </div>
         <div className="flex">
           <div className="offer-cards reveal">
-            <img src={responsive} alt=""></img>
+            <ResponsiveSVG />
             <div className="o-info">
               <h3>Responsive Website</h3>
               <p>
@@ -24,7 +23,7 @@ const Offer = () => {
             </div>
           </div>
           <div className="offer-cards reveal">
-            <img src={design} alt=""></img>
+            <DesignSVG />
             <div className="o-info">
               <h3>Convert your design into a working website.</h3>
               <p>
@@ -34,7 +33,7 @@ const Offer = () => {
             </div>
           </div>
           <div className="offer-cards reveal">
-            <img src={team} alt=""></img>
+            <TeamSVG />
             <div className="o-info">
               <h3>Team Collaboration</h3>
               <p>

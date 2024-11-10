@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 import Github from "./Atoms/Button/Github";
+import { LogoSVG } from "./Atoms/Svg";
 import resume from "../docs/resume-03-01-2023.pdf";
 import "./styles/Nav.css";
 
@@ -30,9 +31,7 @@ const Nav = () => {
           <div className="flex">
             <div className="name">
               <a href="#head" rel="noreferrer">
-                <h1>
-                  <span>M.</span>B<span>.</span>
-                </h1>
+                <LogoSVG />
               </a>
             </div>
             <div className="toggle-menu">

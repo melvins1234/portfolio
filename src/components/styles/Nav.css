@@ -20,7 +20,14 @@ header .nav-h {
 header .name a {
   font-size: 11px;
   letter-spacing: 3px;
-  color: white;
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header .name svg {
+  width: 70px;
+  max-width: 100%;
 }
 header i {
   font-size: 16px;
@@ -64,6 +71,7 @@ header .menu .resume .tp:hover {
   -ms-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
 }
+
 @media (max-width: 768px) {
   .menu {
     display: none;

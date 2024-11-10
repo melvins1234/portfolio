@@ -5,7 +5,7 @@ const Me = () => {
       <div className="container">
         <div className="flex">
           <h1>
-            Hi, I'm <span className="my-name">Melvin Baybayanon.</span>
+            Hi, I'm <span className="my-name"><span>M</span>elvin <span>B</span>aybayanon.</span>
           </h1>
           <p className="front-end">I'm a Front-End Developer</p>
           <div className="btn-control">
