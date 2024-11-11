@@ -1,5 +1,4 @@
 import "./styles/Offer.css";
-import responsive from "../images/responsive.svg";
 import { TeamSVG, DesignSVG, ResponsiveSVG } from "./Atoms/Svg";
 
 const Offer = () => {
