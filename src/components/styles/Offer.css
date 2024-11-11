@@ -16,6 +16,12 @@
   width: 100%;
   height: 280px;
 }
+
+.offer svg {
+  width: 100%;
+  height: 280px;
+}
+
 .offer .o-info {
   text-align: center;
 }
